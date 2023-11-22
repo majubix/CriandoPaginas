@@ -1,0 +1,150 @@
+body {
+    background-color: black;
+    color: rgb(227, 213, 241);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+.nome:hover{
+    color: blue;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+h5{
+    margin: 25px;
+    margin-top: 0px;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-align: center;
+    color: azure;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+}
+
+.icone {
+   margin: 25px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    
+}
+
+main img{
+    border-radius: 50px;
+   border: blue solid;
+    margin: 25px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+}
+footer p {
+    margin-top: 2px;
+}
+
+footer a{
+    text-align: center;
+    margin: 20px;
+}
+
+
+.cursos{
+    display: flex;
+    align-items: center;
+    
+    }
+
+.cursos img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+
+.container_servicos #h1_servicos, #p_ajudar{
+    text-align: center;
+}
+
+#h1_servicos{
+    margin-top: 50px;
+}
+
+.container_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.container_icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: orangered;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    width: 190px;
+    height: 260px;
+}
+
+.container_icons img{
+    width: 100%;
+    height: 80px;
+}
+
+.container_icons button{
+    color: white;
+    background-color: black;
+    width: auto;
+    height: 30px;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 400px) {
+    
+    .container_menu{
+        display: none;
+    }
+
+}

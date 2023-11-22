@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+    
+body{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 16px;
+}
+    
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+     color: blue;
+}
+    
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid blue;
+}
+    
+.center{
+    text-align: center;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    color: blue;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+}
+        
+footer{
+    display: flex;
+    justify-content: center;
+}
+        
+footer a{
+    text-align: center;
+     margin: 20px;
+}
+        
+footer p{
+    margin-top: 2px;
+}
+
+.formulario h2{
+    text-align: center;
+    color: blue;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    background-color: #24242473;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea{
+    resize: none;
+    height: 80px;
+}
+
+.enviar{
+    margin: 15px 0 0 0;
+    text-align: center;
+}
+
+.enviar input{
+    width: 120px;
+    background-color: blue;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.enviar input:hover{
+    box-shadow: 0px 0px 8px blue;
+    transform: scale(1.05);
+}
